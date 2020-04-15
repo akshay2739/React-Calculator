@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.wrapper{
+    background-color:white;
+    padding: 5px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 50px 50px  50px 50px;
+    gap: 5px;
+    
+}
+
+.button{
+    padding: 10px;
+}
+
+.numbers{
+    margin-top: 5px;
+    color: white;
+}
+
+.screen{
+    background-color: #404040;
+    color: white;
+    margin-bottom: 5px;
+    text-align: end;
+    padding-right: 5px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #ffffff00;
+    border: none;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
