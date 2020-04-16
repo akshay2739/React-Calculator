@@ -6,7 +6,7 @@ export default class Screen extends Component {
         return (
             <div>
                 <div className="screen">
-                    <p>00</p>
+                    <p>{this.props.display}</p>
                     <h1>00</h1>
                 </div>
             </div>

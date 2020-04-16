@@ -8,7 +8,7 @@ export default class Numbers extends Component {
         return (
             <div className="numbers">
                 <div className="grid-container">
-                    <Button title="7" color="#404040"/>
+                    <Button title="7" color="#404040" fun2={()=>this.props.fun1} />
                     <Button title="8" color="#404040"/>
                     <Button title="9" color="#404040"/>
                     <Button title="*" color='#a4a5a5' fcolor='black'/>

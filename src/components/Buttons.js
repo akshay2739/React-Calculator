@@ -5,10 +5,11 @@ import Controls from './Controls'
 
 export default class Buttons extends Component {
     render() {
+    
         return (
             <div> 
                 <Controls />
-                <Numbers />
+                <Numbers fun1={()=>this.props.fun} />
                 
             </div>
         )
