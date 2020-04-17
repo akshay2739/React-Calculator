@@ -4,12 +4,14 @@ import Numbers from './Numbers'
 import Controls from './Controls'
 
 export default class Buttons extends Component {
-    render() {
     
+    
+    render() {
+        
         return (
             <div> 
-                <Controls />
-                <Numbers fun1={()=>this.props.fun} />
+                <Controls fun={this.props.fun}/>
+                <Numbers fun={this.props.fun}/>
                 
             </div>
         )

@@ -7,10 +7,10 @@ export default class Controls extends Component {
         return (
             <div>
                 <div className="grid-container" >
-                    <Button title="AC" color='#a4a5a5' />
-                    <Button title="DEL"  color='#a4a5a5'  />
-                    <Button title="%"  color='#a4a5a5'/>
-                    <Button title="+/-"  color='#a4a5a5' />
+                    <Button title="AC" color='#a4a5a5' fun={this.props.fun} />
+                    <Button title="DEL"  color='#a4a5a5' fun={this.props.fun} />
+                    <Button title="%"  color='#a4a5a5' fun={this.props.fun} />
+                    <Button title="+/-"  color='#a4a5a5' fun={this.props.fun} />
                 </div>
             </div>
         )

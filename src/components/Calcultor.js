@@ -13,9 +13,9 @@ export default class Calcultor extends Component {
         }
     }
     
-    getExp()
-    {
-        console.log('hello')
+    han = (title)=>{
+        this.setState({display:this.state.display+title})
+        console.log(this.state.display)
     }
 
     render() {
@@ -23,7 +23,7 @@ export default class Calcultor extends Component {
             <div style={{backgroundColor:'grey', padding:5, boxShadow:10}}>
                 <div className="wrapper">
                     <Screen display={this.state.display}/>
-                    <Buttons  fun={this.getExp}/>
+                    <Buttons  fun={this.han}/>
                 </div>
             </div>
             
