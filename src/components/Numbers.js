@@ -27,7 +27,7 @@ export default class Numbers extends Component {
                     <Button title="0" color="#404040" fun={this.props.fun}/>
                     <Button title="." color="#404040" fun={this.props.fun}/>
                     <Button title="/" color="#404040" fun={this.props.fun}/>
-                    <Button title="="  color='#a4a5a5'fcolor='black' fun={this.props.fun}/>   
+                    <Button title="="  color='#a4a5a5'fcolor='black' fun={this.props.fun} answer={this.props.answer} />   
                 </div>
             </div>
         )

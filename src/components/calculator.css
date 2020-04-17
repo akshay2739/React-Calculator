@@ -30,6 +30,7 @@
     margin-bottom: 5px;
     text-align: end;
     padding-right: 5px;
+    min-height: 50px;
 }
 
 input[type=button], input[type=submit], input[type=reset] {

@@ -11,7 +11,7 @@ export default class Buttons extends Component {
         return (
             <div> 
                 <Controls fun={this.props.fun}/>
-                <Numbers fun={this.props.fun}/>
+                <Numbers fun={this.props.fun} answer={this.props.answer}/>
                 
             </div>
         )

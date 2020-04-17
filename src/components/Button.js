@@ -4,6 +4,7 @@ import './calculator.css'
 export default class Button extends Component {
     
     hen = ()=>{
+       
         this.props.fun(this.props.title)
     }
 
